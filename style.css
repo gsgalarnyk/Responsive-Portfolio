@@ -237,3 +237,34 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #f7f6f2 ;
+  }
+  .sidebar { max-width: 90%; float: left; margin-left: 5%;
+
+  }
+  .main-section { max-width: 90%; float: left; margin-left: 5%; }
+}
+
+@media screen and (max-width: 640px) {
+body {
+    background-color: #f7f6f2 ;
+  }
+  .sidebar { max-width: 90%; float: left; margin-left: 5%;
+
+  }
+  .main-section { max-width: 90%; float: left; margin-left: 5%; }
+
+  }
+  .auth-image { width: 95%; }
+}
+@media screen and (min-width: 980px) {
+
+.auth-image { width: 95%;
+  }
+}
+}
